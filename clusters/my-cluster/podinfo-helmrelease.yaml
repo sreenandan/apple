@@ -7,10 +7,10 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: podinfo
+      chart: ./charts/podinfo
       version: ">=4.0.0 <5.0.0"
       sourceRef:
-        kind: HelmChart
+        kind: GitRepository
         name: podinfo
         namespace: flux-system
       interval: 1m
