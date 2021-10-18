@@ -20,5 +20,5 @@ spec:
   values:
     resources:
       requests:
-        cpu: 100m
+        cpu: 110m
         memory: 64Mi
